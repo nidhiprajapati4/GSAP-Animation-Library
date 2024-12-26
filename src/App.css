@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  margin: 20px auto;
+  border-radius: 50%;
+}
