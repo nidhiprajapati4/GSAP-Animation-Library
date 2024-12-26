@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import "./App.css";
 import HorizontalAnimation from "./components/HorizontalAnimation";
+import VerticalAnimation from "./components/VerticalAnimation";
 
 const App = () => {
   const boxRef = useRef(null);
@@ -84,8 +85,11 @@ const App = () => {
         <div className="box2"></div>
         <div className="circle" ref={circleRef}></div>
       </div>
-      <h2 style={{color:"#65fa65"}}>Horizontal Animation</h2>
-      <HorizontalAnimation/>
+      <h2 style={{ color: "#65fa65" }}>Horizontal Animation</h2>
+      <HorizontalAnimation />
+
+      <h2 style={{ color: "#65fa65" }}>Vertical Animation</h2>
+      <VerticalAnimation />
     </div>
   );
 };

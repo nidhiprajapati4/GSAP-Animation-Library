@@ -20,7 +20,7 @@
   border-radius: 5px;
 }
 
-.box2{
+.box2 {
   width: 150px;
   height: 150px;
   background-color: #3498db;
@@ -40,18 +40,55 @@
   border-radius: 50%;
 }
 
-.nav{
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #072323;
 }
 
-.menu{
+.menu {
   display: flex;
   gap: 20px;
 }
 
-.box-animation{
+.box-animation {
   margin-top: 10%;
+}
+
+.rectangle-game {
+  width: 500px;
+  margin-top: 10px;
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle {
+  background: green;
+  margin: 5px 0px;
+  height: 25px;
+}
+
+#play {
+  width: 20%;
+  padding: 8px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#play:hover {
+  background-color: #072323;
+  color: white;
+}
+
+.inner-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border-right: 2px solid black;
 }
